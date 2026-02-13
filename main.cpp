@@ -20,6 +20,7 @@ int main()
     cin >> name;
     cout << '\n' << "Welcome, " << name << " to the land of Eastaria.";
     cout << "The story begins with you ";
+    cout << "Grass russels in the wind. Colorful leaves dance over the fields.";
 
     return 0;
 }
