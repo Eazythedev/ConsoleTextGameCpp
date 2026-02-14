@@ -17,10 +17,24 @@ int main()
     string name;
 
     cout << "Choose a name: ";
+
     cin >> name;
-    cout << '\n' << "Welcome, " << name << " to the land of Eastaria.";
-    cout << "The story begins with you ";
-    cout << "Grass russels in the wind. Colorful leaves dance over the fields.";
+
+    cout << '\n' << "Welcome, " << name << " to the land of Eastaria." << "\n";
+
+    cout << "Press the any key to coninue" << "\n";
+
+    _getch();
+
+    cout << "The story begins with you." << "\n";
+    cout << "Press the any key to coninue" << "\n";
+
+    _getch();
+
+    cout << "Grass russels in the wind. Colorful leaves dance over the fields." << "\n";
+    cout << "Press the any key to coninue" << "\n";
+
+    _getch();
 
     return 0;
 }
