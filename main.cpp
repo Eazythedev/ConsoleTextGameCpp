@@ -31,7 +31,12 @@ int main()
 
     _getch();
 
-    cout << "Grass russels in the wind. Colorful leaves dance over the fields." << "\n";
+    cout << "Grass dances in the wind. Colorful leaves rustle and dance over the fields." << "\n";
+    cout << "Press the any key to coninue" << "\n";
+
+    _getch();
+
+    cout << "Though the sky has clouds, the light shines over the land." << "\n";
     cout << "Press the any key to coninue" << "\n";
 
     _getch();
