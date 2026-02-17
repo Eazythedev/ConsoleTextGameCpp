@@ -39,6 +39,9 @@ int main()
     cout << "Though the sky has clouds, the light shines over the land." << "\n";
     cout << "Press the any key to coninue" << "\n";
 
+    cout << "You begin by going out to gather wood for a nearby village." << "\n";
+    cout << "Press the any key to coninue" << "\n";
+    
     _getch();
 
     // Next thing.
