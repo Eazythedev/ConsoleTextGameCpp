@@ -41,6 +41,10 @@ int main()
 
     cout << "You begin by going out to gather wood for a nearby village." << "\n";
     cout << "Press the any key to coninue" << "\n";
+
+    // cout << "";
+
+    // Create decision logic for first decision logic for first player decision in the game.
     
     _getch();
 
