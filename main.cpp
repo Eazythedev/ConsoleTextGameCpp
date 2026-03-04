@@ -71,6 +71,35 @@ int main()
     // _getch();
 
     // Next thing.
+
+while (true) {
+        int choice1;
+
+        cin >> choice1;
+
+        if (choice1 == 1) {
+            cout << "____________________________________________________________________________________________" << "\n";
+            cout << "You enter the abandonded farm, it looks like it has only been recently abandonded.";
+            cout << "____________________________________________________________________________________________" << "\n";
+            cout << "Press the any key to coninue" << "\n";
+
+            _getch();
+            break;
+        }
+
+        else if (choice1 == 2) {
+            cout << "____________________________________________________________________________________________" << "\n";
+            cout << "You enter the old mill, which looks like it had recently been occupied.";
+            cout << "____________________________________________________________________________________________" << "\n";
+            cout << "Press the any key to coninue" << "\n";
+
+            _getch();
+        }
+
+        else {
+            cout << "Invalid input. You must choose by pressing either the '1' or the '2' keys.";
+        }
+    }
     
     return 0;
 }
